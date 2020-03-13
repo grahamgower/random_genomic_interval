@@ -80,7 +80,7 @@ def parse_args():
             help="Seed for the random number generator.")
     parser.add_argument(
             "fai_file", metavar="ref.fai",
-            help="Fast index for the genome reference.")
+            help="Fasta index for the genome reference.")
     parser.add_argument(
             "length", type=length,
             help="Length of the desired genomic interval.")

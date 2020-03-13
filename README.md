@@ -5,7 +5,7 @@ usage: random_genomic_interval.py [-h] [-n N] [-s SEED] ref.fai length
 Randomly sample genomic intervals.
 
 positional arguments:
-  ref.fai               Fast index for the genome reference.
+  ref.fai               Fasta index for the genome reference.
   length                Length of the desired genomic interval.
 
 optional arguments:
