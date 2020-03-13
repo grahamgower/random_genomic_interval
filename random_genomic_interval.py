@@ -43,7 +43,7 @@ def parse_fai(fn, min_length=1000, exclude={"x", "y", "m", "mt"}):
     # Sort the list by size. This makes random chromosome selection slightly
     # faster, as our distribution function (the cumulative weights) has more
     # mass at the start of the array.
-    fai.sort(key=lambda a: a[1])
+    fai.sort(key=lambda a: a[1], reverse=True)
 
     cum_weights = []
     for i, (chrom, size) in enumerate(fai):
